@@ -3,7 +3,7 @@
 import { Plus, RefreshCcw, Search } from "lucide-react";
 import { useRecoilState } from "recoil";
 import { searchQueryAtom } from "@/recoil/atom/index";
-
+import { repoData } from "@/constant";
 export const DashNav = () => {
   const [searchQuery, setSearchQuery] = useRecoilState(searchQueryAtom);
 
@@ -13,7 +13,9 @@ export const DashNav = () => {
         <h1 className="font-sans font-semibold text-2xl md:text-3xl">
           Repositories
         </h1>
-        <p className="text-[#414651] text-sm my-1">33 total Repositories</p>
+        <p className="text-[#414651] text-sm my-1">
+          {repoData.length} total Repositories
+        </p>
         <div className="mt-2 flex items-center justify-center border-2 border-[#EEEFF0] pl-2 rounded-lg">
           <Search className="text-[#414651] font-normal" />
           <input
