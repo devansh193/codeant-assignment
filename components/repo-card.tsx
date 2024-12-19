@@ -1,4 +1,5 @@
 import { Database, Dot } from "lucide-react";
+
 interface RepoCardProps {
   heading: string;
   label: string;
