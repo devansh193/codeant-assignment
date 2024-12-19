@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Plus, Settings } from "lucide-react";
+import { Home, Settings } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Code from "@/components/icons/code";
 import Cloud from "@/components/icons/cloud";
@@ -16,22 +16,22 @@ const items = [
   },
   {
     title: "AI Code Review",
-    href: "/#",
+    href: "/review",
     icon: Code,
   },
   {
     title: "Cloud Security",
-    href: "/#",
+    href: "/security",
     icon: Cloud,
   },
   {
     title: "How to use",
-    href: "/#",
+    href: "/use",
     icon: HowTo,
   },
   {
     title: "Setting",
-    href: "/#",
+    href: "/setting",
     icon: Settings,
   },
 ];

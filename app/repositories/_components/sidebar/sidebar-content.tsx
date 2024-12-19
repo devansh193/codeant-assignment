@@ -8,7 +8,7 @@ import Dropdown from "@/components/dropDown";
 const bottomContent = [
   {
     title: "Support",
-    href: "/#",
+    href: "/support",
     icon: Phone,
   },
   {
@@ -24,10 +24,10 @@ export const SidebarContent = () => {
   return (
     <div className="flex flex-col h-full p-2">
       <div className="px-2 pt-2 flex items-center justify-start p-2 gap-x-2">
-        <div className="flex items-center justify-center">
+        <Link className="flex items-center justify-center" href={"/"}>
           <Logo className="mr-2" />
           <h1 className="font-sans font-light text-3xl">CodeAnt AI</h1>
-        </div>
+        </Link>
       </div>
       <div className="p-4">
         <Dropdown

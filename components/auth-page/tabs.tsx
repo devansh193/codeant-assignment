@@ -1,9 +1,7 @@
 "use client";
 
 import { tabsAtom } from "@/recoil/atom";
-import { useState } from "react";
 import { useRecoilState } from "recoil";
-type TabOption = "SAAS" | "Self Hosted";
 
 export const Tabs = () => {
   const [activeTab, setActiveTab] = useRecoilState(tabsAtom);

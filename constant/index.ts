@@ -1,0 +1,51 @@
+export const repoData = [
+  {
+    heading: "codeant-assignment",
+    label: "Private",
+    language: "React",
+    size: "5466",
+    updatedOn: "2024-12-19",
+  },
+  {
+    heading: "design-system",
+    label: "Public",
+    language: "React",
+    size: "7320",
+    updatedOn: "2024-12-15",
+  },
+  {
+    heading: "mobile-app",
+    label: "Public",
+    language: "Swift",
+    size: "5251",
+    updatedOn: "2024-12-11",
+  },
+  {
+    heading: "analytic-dashboard",
+    label: "Public",
+    language: "Python",
+    size: "7320",
+    updatedOn: "2024-12-10",
+  },
+  {
+    heading: "e-commerce",
+    label: "Public",
+    language: "React",
+    size: "4353",
+    updatedOn: "2024-12-09",
+  },
+  {
+    heading: "blog-website",
+    label: "Private",
+    language: "HTML/CSS",
+    size: "5466",
+    updatedOn: "2024-11-01",
+  },
+  {
+    heading: "e-solution",
+    label: "Private",
+    language: "HTML/CSS",
+    size: "5466",
+    updatedOn: "2024-10-20",
+  },
+];
