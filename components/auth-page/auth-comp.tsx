@@ -46,7 +46,7 @@ export const AuthComponent = () => {
           {saasContent.map((item) => (
             <div
               key={item.label}
-              className="border sm:h-[60px] h-[50px] w-[250px] border-[#D6D7DA] flex items-center justify-center rounded-lg"
+              className="border sm:h-[60px] h-[50px] w-[300px] sm:w-[350px] border-[#D6D7DA] flex items-center justify-center rounded-lg"
             >
               {item.logo}
               <h1 className="font-sans font-bold sm:text-md text:sm">
@@ -60,7 +60,7 @@ export const AuthComponent = () => {
           {selfContent.map((item) => (
             <div
               key={item.label}
-              className="border h-[60px] border-[#D6D7DA] flex items-center justify-center rounded-lg"
+              className="border sm:h-[60px] h-[50px] w-[300px] sm:w-[350px] border-[#D6D7DA] flex items-center justify-center rounded-lg"
             >
               {item.logo}
               <h1 className="font-sans font-bold text:sm sm:text-md">
