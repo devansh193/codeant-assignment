@@ -1,10 +1,11 @@
+import { DashNav } from "./_components/dashboard-components/dash-nav";
+
 export default function Dashboard() {
   return (
-    <div className=" bg-[#FAFAFA] w-full h-full p-4">
-      <div className="mt-6">
-        <h1 className="text-3xl font-semibold font-sans">Products</h1>
-        <div className="flex flex-col items-center justify-center mx-auto max-w-7xl">
-          <h1>hi there</h1>
+    <div className="bg-[#FAFAFA] w-full h-full p-4">
+      <div className="bg-[#FFFFFF] h-full rounded-2xl border-2 border-[#EDEEEE shadow-sm">
+        <div className="p-6 border-b-2 border-[#EEEFF0]">
+          <DashNav />
         </div>
       </div>
     </div>

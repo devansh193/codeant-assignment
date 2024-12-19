@@ -1,4 +1,4 @@
-import { DashSidebar } from "./_components/sidebar";
+import { DashSidebar } from "./_components/sidebar/sidebar";
 
 const DashLayout = ({ children }: { children: React.ReactNode }) => {
   return (
