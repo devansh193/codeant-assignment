@@ -1,6 +1,4 @@
 import Logo from "@/components/icons/logo";
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -22,10 +20,10 @@ export default function Home() {
               <span className="absolute inset-0 bg-white transform translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out" />
             </button>
           </Link>
-          <Link href={"/dashboard"} className="block">
+          <Link href={"/repositories"} className="block">
             <button className="w-[250px] relative overflow-hidden group bg-black hover:bg-gray-300 text-white font-sans font-medium text-2xl px-4 py-3 rounded-xl transition-colors duration-300 ease-in-out">
               <span className="relative z-10 group-hover:text-black transition-colors duration-500 ease-in-out">
-                Dashboard
+                Repositories
               </span>
               <span className="absolute inset-0 bg-neutral-300 transform translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out" />
               <span className="absolute inset-0 bg-white transform translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out" />

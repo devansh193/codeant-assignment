@@ -6,7 +6,7 @@ import { Tabs } from "./tabs";
 const Space = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-4">
-      <div className="bg-white w-full max-w-xl md:max-w-3xl min-h-[602px] rounded-xl border-2 p-6 md:p-8">
+      <div className="bg-white w-full max-w-xl md:max-w-3xl min-h-[602px] h-full rounded-xl border-2 p-6 md:p-8">
         <div className="pb-8">
           <div className="flex items-center justify-center pt-4">
             <Link href={"/"} className="flex items-baseline justify-center">
