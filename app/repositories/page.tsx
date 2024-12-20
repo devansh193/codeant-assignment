@@ -14,7 +14,7 @@ export default function Dashboard() {
   );
 
   return (
-    <div className="bg-[#FAFAFA] w-full p-2 sm:p-4">
+    <div className="bg-[#FAFAFA] h-screen w-full sm:p-4">
       <div className="bg-[#FFFFFF] rounded-lg sm:rounded-2xl border border-[#EDEEEE] shadow-sm">
         <div className="p-3 mt-16 md:mt-2 px-6 border-b border-[#EEEFF0]">
           <DashNav />
