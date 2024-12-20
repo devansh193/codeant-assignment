@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Features
 
 - Modern React development with Next.js
-- Responsive design with CSS modules
+- Responsive design with Tailwind CSS
 - Repository page with working filter functionality
 
 ## Getting Started
@@ -41,10 +41,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Project Structure
 
-- `pages/`: Contains all the pages of the application
+- `app/`: Contains all the pages of the application
 - `components/`: Reusable React components
-- `styles/`: Global styles and CSS modules
-- `public/`: Static assets like images and fonts
 
 ## Repository Page
 
